@@ -15,6 +15,20 @@ public class DateUtil {
 	private static final String yyyyMMdd = "yyyyMMdd";
 	private static final String yyyyMMddHHmmss = "yyyyMMddHHmmss";
 	private static final String yyyyMMddHHmmssSSS = "yyyyMMddHHmmssSSS";
+	
+	/**
+	 * 把date转换成自定义格式的字符串
+	 * 
+	 * @auth 涂宗勋
+	 * @param date
+	 * @param str
+	 * @return
+	 */
+	public static String getDateStr(Date date, String str) {
+		SimpleDateFormat dateFormat = new SimpleDateFormat(str);
+		return dateFormat.format(date);
+	}
+
 	/**
 	 * 根据date获取yyyyMMdd的格式化字符串
 	 * 
