@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * 时间操作工具类，包括Date、calendar、localDate等
+ * 时间操作工具类
  * 
  * @author 涂宗勋
  * @date 2018年2月24日
