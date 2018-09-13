@@ -1,4 +1,4 @@
-package myUtilTest;
+package myutiltest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import myUtils.emailUtil.SendMailUtil;
+import myutils.emailutil.SendMailUtil;
 
 /**
  * 

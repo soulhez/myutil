@@ -1,4 +1,4 @@
-package myUtils.emailUtil;
+package myutils.emailutil;
 
 import java.util.ArrayList;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package myUtils.dateUtil;
+package myutils.dateutil;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -15,7 +15,7 @@ public class DateUtil {
 	private static final String yyyyMMdd = "yyyyMMdd";
 	private static final String yyyyMMddHHmmss = "yyyyMMddHHmmss";
 	private static final String yyyyMMddHHmmssSSS = "yyyyMMddHHmmssSSS";
-	
+
 	/**
 	 * 把date转换成自定义格式的字符串
 	 * 
@@ -52,7 +52,7 @@ public class DateUtil {
 		SimpleDateFormat dateFormat = new SimpleDateFormat(yyyyMMddHHmmss);
 		return dateFormat.format(date);
 	}
-	
+
 	/**
 	 * 根据date获取yyyyMMddHHmmssSSS的格式化字符串
 	 * 
